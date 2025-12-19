@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eclipse Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui" class="hidden">
+    <div class="panel">
+      <div class="scanlines"></div>
+
+      <div class="header">
+        <div class="badge" id="badge">ECLIPSE</div>
+        <div class="title">
+          <div class="name" id="titleName">Conversation</div>
+          <div class="sub" id="titleSub">Choose carefully.</div>
+        </div>
+        <button id="closeBtn" class="iconbtn" aria-label="Close">×</button>
+      </div>
+
+      <div class="body">
+        <div class="right">
+          <div id="chat" class="chat"></div>
+
+          <div class="typing hidden" id="typing">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          </div>
+
+          <div id="options" class="options"></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="hint">Esc closes • Choose carefully</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
