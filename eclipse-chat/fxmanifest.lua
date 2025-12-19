@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Ovrwrld'
+author 'Eclipse'
 description 'Eclipse branching chat NUI (reusable)'
 version '1.1.0'
 
